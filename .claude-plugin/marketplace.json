@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "custom-skills",
+  "description": "custom-skills",
+  "owner": {
+    "name": "ayii"
+  },
+  "plugins": [
+    {
+      "name": "user-skills",
+      "description": "user-skills",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
