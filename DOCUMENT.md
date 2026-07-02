@@ -26,3 +26,18 @@ when_to_use: 在什麼情況下使用
 ```
 
 **skill 觸發時機的 Debug**: ```你何時會使用 xxx skill?```
+
+
+
+## 本機測試
+
+```bash
+claude --plugin-dir /Users/ayii/cc-projects/custom-skills
+```
+
+或先加入本機路徑作為 marketplace：
+
+```
+/plugin marketplace add /Users/ayii/cc-projects/custom-skills
+/plugin install custom-skills
+```

@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "user-skills",
-      "description": "user-skills",
+      "name": "custom-skills",
+      "description": "custom-skills",
       "source": "./",
       "category": "productivity"
     }
